@@ -2,7 +2,7 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: alpine:3.7
+      - image: docker/node:10.19.0-jessie
     steps:
       - checkout
       - run:
